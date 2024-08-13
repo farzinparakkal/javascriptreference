@@ -94,3 +94,58 @@ for(let i=0;i<=strlen;i++)
     console.log("string = ",str)
     console.log("No of vowels = ",c)
 }
+
+{
+    let k=83,c,i
+    for(i=2;i<=10;i++){
+        if(k==i)
+            continue
+        else if(k%i==0){
+            c=1
+            console.log("It is not a prime number !")
+            break
+        }
+        else if(k%i!=0){
+            c=0
+        }
+    }
+    if(c==0)
+    {
+        console.log("It is a prime number !")
+    }
+}
+
+// {
+//     let k,i,j,p
+//     for(i=0;i<5;i++)
+//     {
+//         k=1
+//         for(j=0;j<=i;j++)
+//         {
+//             console.log(k)
+//             k=k+1
+//         }
+//         console.log("\n")
+//     }
+// }
+
+{
+    for (let i = 1; i <= 5; i++) {
+        let p = '';
+        for (let j = 1; j <= i; j++) {
+            p = p + j;
+            // p=p+" "
+        }
+        console.log(p);
+    }
+}
+
+{
+    let i,j,str=``
+    for(i=5;i>0;i--){
+        for(j=1;j<=i;j++)
+            str = str + "*"
+        str = str + "\n"
+    }
+    console.log(str)
+}
