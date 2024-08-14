@@ -1,80 +1,34 @@
-// console.log("javascript conditions")
-
-// let n1=4,n2=6;
-// if(n1<n2){
-//     console.log(`${n1} less than ${n2}`)
-// }
-// else{
-//     console.log(`${n1} greater than ${n2}`)
-// }
-
-// n1 > n2 ? console.log(`${n1} greater than ${n2}`) : console.log(`${n1} less than ${n2}`)
-
-// let day=8
-// switch(day){
-//     case 1:
-//         console.log("Monday")
-//         break
-//     case 2:
-//         console.log("Tuesday")
-//         break
-//     case 3:
-//         console.log("Wednesday")
-//         break
-//     case 4:
-//         console.log("Thursday")
-//         break
-//     case 5:
-//         console.log("Friday")
-//         break
-//     case 6:
-//         console.log("Saturday")
-//         break
-//     case 7:
-//         console.log("Sunday")
-//         break
-//     default:
-//         console.log("Invalid..........")
-// }
-
-
-// let i,j,str=``
-// for(i=0;i<10;i++){
-//     for(j=0;j<=i;j++)
-//         str = str + "*"
-//     str = str + "\n"
-// }
-// console.log(str)
-
-// {
-
-// let i,j,str=``
-// for(i=0;i<10;i++){
-//     for(j=0;j<10;j++){
-//     if(i==j)
-//         str = str + "*"
-//     else
-//         str = str + " "
-//     }
-//     str = str + "\n"
-// }
-// console.log(str)
-// }
 
 {
-let i
-for(i=1;i<=10;i++)
-    console.log(i)
+{
+    function prnum(){
+        let i
+        for(i=1;i<=10;i++)
+        console.log(i)
+    }
+    prnum()
+}
 }
 
+
+
+
 {
+function sumn(){
     let i,sum=0
     for(i=1;i<=10;i++)
         sum = sum+i
-    console.log("Sum = ",sum)
+    return sum
+}
+q = sumn()
+console.log("Sum : ",q)
 }
 
+
+
+
 {
+function evep(){
     let i
     for(i=1;i<=20;i++)
     {
@@ -82,8 +36,15 @@ for(i=1;i<=10;i++)
             console.log(i)
     }
 }
+evep()
+}
+
+
+
+
 {
-str = "hi how are you"
+function cvow(str){
+
 c=0
 strlen = str.length
 for(let i=0;i<=strlen;i++)
@@ -92,10 +53,17 @@ for(let i=0;i<=strlen;i++)
         c=c+1
     }
     console.log("string = ",str)
-    console.log("No of vowels = ",c)
+    return c
+}
+str = "hi how are you"
+c=cvow(str)
+console.log("No of vowels = ",c)
 }
 
+
+
 {
+function prime(){
     let k=83,c,i
     for(i=2;i<=10;i++){
         if(k==i)
@@ -114,38 +82,41 @@ for(let i=0;i<=strlen;i++)
         console.log("It is a prime number !")
     }
 }
+prime()
+}
 
-// {
-//     let k,i,j,p
-//     for(i=0;i<5;i++)
-//     {
-//         k=1
-//         for(j=0;j<=i;j++)
-//         {
-//             console.log(k)
-//             k=k+1
-//         }
-//         console.log("\n")
-//     }
-// }
+
+
+
+
+
 
 {
+function pstar(){
     for (let i = 1; i <= 5; i++) {
         let p = '';
         for (let j = 1; j <= i; j++) {
             p = p + j;
-            // p=p+" "
         }
         console.log(p);
     }
 }
+pstar()
+}
+
+
+
 
 {
+function starp(){
     let i,j,str=``
     for(i=5;i>0;i--){
         for(j=1;j<=i;j++)
             str = str + "*"
         str = str + "\n"
     }
-    console.log(str)
+    return str
+}
+strm = starp()
+console.log(strm)
 }
