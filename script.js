@@ -170,3 +170,23 @@
     console.log("Reversed String : ",rev);
     
 }
+
+{
+    console.log("\n\n\n\n")
+    str = "Hindi";
+    function reverse(){ 
+        rev = "";
+        for (let i = str.length - 1; i >= 0; i--) {
+           rev = rev+str[i];
+        }
+        console.log("Original String: " + str);
+        console.log("Reversed String: " + rev);
+        if(str==rev)
+            {
+                console.log("It is a Palindrome")
+            }else{
+                console.log("It is not a Palindrome")
+            }
+    }
+    reverse(str)
+}
