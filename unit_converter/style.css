@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* background-color: aqua; */
+    width: 80vw;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    color: red;
+}
+.cont2{
+    /* background-color: antiquewhite; */
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cont3{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.s1{
+    background-color: blue;
+    width: 150px;
+    height: 70px;
+    color: white;
+}
+.s2{
+    background-color: red;
+    width: 150px;
+    height: 70px;
+    color: white;
+}
+
+#gunit,#runit{
+    font-size: 20px;
+}

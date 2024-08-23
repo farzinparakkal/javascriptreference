@@ -1,0 +1,13 @@
+.cont{
+    width: 500px;
+    height: 400px;
+    background-color: purple;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+#cd{
+    padding-top: 40px;
+    /* background-color:antiquewhite; */
+}

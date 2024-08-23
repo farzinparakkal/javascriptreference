@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+  }
+div {
+    text-align: center;
+}
+span {
+    display: block;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 5px 10px;
+}
+button{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border: none;
+    padding: 8px 10px;
+}
+
+
+
