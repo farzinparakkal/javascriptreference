@@ -22,17 +22,22 @@
     overflow: hidden;
     text-align: center;
 }
+
+.card:hover{
+    border: 1px solid black;
+}
  .card h3 {
     padding: 10px 0;
     font-size: 13px;
  }  
 #btn{
-    background-color: green;
-    color: white;
+    background-color: lightgreen;
+    color: red;
     width: 150px;
     height: 50px;
     border-radius: 5px;
     font-size: 18px;
+    cursor: pointer;
 }
 .card button{
     background-color: green;

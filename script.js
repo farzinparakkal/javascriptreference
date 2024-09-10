@@ -22,16 +22,15 @@ function loadDatas() {
 
         for (let i = 0; i < parsed_response.length; i++) {
           cards += `
-                <div class="card">
+                <div class="card" onclick="handleClick(${
+                      parsed_response[i].id
+                    })">
                     <img src="${parsed_response[i].image}" alt="${
             parsed_response[i].title
           }">
                     <h3>${parsed_response[i].title}</h3>
                     <p>${parsed_response[i].description.substring(0, 30)}...</p>
                     <div class="price">$${parsed_response[i].price}</div>
-                    <button onclick="handleClick(${
-                      parsed_response[i].id
-                    })">View Details</button>
                 </div>`;
         }
 
