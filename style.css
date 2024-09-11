@@ -1,0 +1,29 @@
+.cont{
+    display: flexbox;
+    
+    background-color: lightcoral;
+    height: 170px;
+    width: 340px;
+    margin: auto;
+    margin-top: 50px;
+}
+.c1{
+    text-align: center
+}
+.cont input{
+    margin-left: 80px;
+    background-color: lightgreen;
+}
+.cont button{
+    margin-left: 140px;
+    background-color: lightseagreen;
+}
+.cont label{
+    margin-left: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    color: white;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
